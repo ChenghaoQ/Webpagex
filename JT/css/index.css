@@ -1,0 +1,60 @@
+body
+{
+    margin:0;
+}
+
+.wrapper
+{
+    width:100vw;
+    height:100vh;
+    background:url(../img/blurw.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.mask
+{
+    height:100vh;
+    width:100vw;
+    background:rgba(0,0,0,0.35);
+    display: none;
+}
+.logo
+{
+    width:323px;
+    height:323px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:10vh;
+    background:transparent url(../img/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:bottom;
+    display:none;
+    
+}
+.heading
+{
+    color:#fff;
+    margin-top:10vh;
+}
+h1.heading
+{
+    margin-left:30vw;
+    font-weight: 700;
+    width:15%;
+    font-size:10vh;
+    font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑",SimSun, STXihei, "华文细黑", sans-serif;
+    margin-bottom: 0;
+    display:none;
+}
+.subheading
+{
+    margin-top:0;
+    color:#fff;
+    margin-bottom: 0;
+    margin-left:52vw;
+    font-size:7vh;
+    display:none;
+}
